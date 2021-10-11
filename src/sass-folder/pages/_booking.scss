@@ -1,0 +1,228 @@
+.booking {
+  display: flex;
+  padding: 20px 120px;
+  gap: 30px;
+  background: #f1f2f6;
+
+  &__body {
+    width: 100%;
+  }
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+
+    & p {
+      color: #babbbf;
+    }
+  }
+}
+
+.section {
+  height: 250px;
+  width: 100%;
+  background: #fff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.one {
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 30px;
+  }
+}
+
+.two {
+  &__info-icon {
+    color: #000;
+    height: 17px;
+    width: 17px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  &__top-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 40px;
+
+    &__left {
+      display: flex;
+      border: 1px solid #babbbf;
+      height: 40px;
+
+      & p {
+        font-size: 14px;
+        color: #babbbf;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+
+        &:first-child {
+          border-right: 1px solid #babbbf;
+        }
+      }
+    }
+
+    &__input {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background: #f3f3f3;
+      height: 40px;
+      padding: 10px;
+      width: 400px;
+      padding-left: 20px;
+      border-radius: 4px;
+
+      & p {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      & input,
+      select {
+        border: none;
+        outline: none;
+        background: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.three {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__top-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__middle {
+    border-radius: 4px;
+    height: 40px;
+    display: flex;
+    background: #f1f2f6;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-bottom: 40px;
+
+    & p {
+      font-size: 14px;
+      color: #81868b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      width: 50%;
+    }
+  }
+
+  &__end {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__end-input {
+    border: 1px solid #eceded;
+    position: relative;
+    border-radius: 4px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+    & input {
+      border: none;
+      outline: none;
+    }
+
+    & label {
+      font-size: 12px;
+      position: absolute;
+      top: -9px;
+      left: 5px;
+      z-index: 99;
+      background: #fff;
+      padding: 0 3px;
+    }
+
+    & p {
+      font-size: 12px;
+      color: #babbbf;
+    }
+  }
+}
+
+.four {
+  & h3 {
+    margin-bottom: 30px;
+  }
+
+  &__content-body {
+    display: flex;
+    gap: 30px;
+    width: 35%;
+
+    & h4 {
+      font-size: 14px;
+    }
+
+    & p {
+      color: #babbbf;
+      font-size: 12px;
+    }
+  }
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.active {
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50%;
+  color: #546b94 !important;
+}
+
+.back-arrow {
+  margin-top: 5px;
+  cursor: pointer;
+  height: 5px;
+}

@@ -1,0 +1,33 @@
+.card {
+  border-radius: 4px;
+  border: 1px solid #eceded;
+  height: 100px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  padding-left: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: #0646a6;
+    color: #fff;
+
+    & svg path {
+      fill: #fff;
+      fill-opacity: 1;
+    }
+  }
+
+  & p {
+    align-self: center;
+  }
+
+  & svg {
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+  }
+}
